@@ -56,10 +56,6 @@ Where the unit capacitance of the oxide is $C_{ox} = \frac{\epsilon_{ox}}{d_{ox}
 
 <br>
 
-<div align="center">
-  <img src="figures/03_domino_effect_etch_res.png" width="75%" alt="Domino Effect">
-</div>
-<div align="center"><sub><b>Figure 3.</b> Visualization of the domino effect where prolonged etch times increase line resistance.</sub></div>
 
 
 ### Act II: Cleanroom Cleanliness Classes and "Killer Defects"

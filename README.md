@@ -6,6 +6,9 @@ This project is an engineering case study in the field of **Yield Engineering** 
 
 This project was created as a preparatory portfolio for the **"Hands-on training on Micro & Nano fabrication"** specialized course organized by **NCSR “Demokritos”** under the INFRACHIP initiative.
 
+<div align="center">
+  <img src="MOS diode.png" width="75%" alt="MOS Diode">
+</div>
 
 ## 2. Repository Structure
 

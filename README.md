@@ -68,26 +68,35 @@ During production, batches (e.g., LOT_032) were identified with a drastic increa
 
 
 <div align="center">
-  <img src="figures/04_cleanroom_lots_boxplot.png" width="45%" alt="Cleanroom Lots Boxplot" hspace="15">
-  <img src="figures/05_killer_defects_correlation.png" width="45%" alt="Killer Defects Correlation" hspace="15">
+  <img src="figures/04_cleanroom_lots_boxplot.png" width="75%" alt="Cleanroom Lots Boxplot">
 </div>
-<div align="center"><sub><b>Figure 4.</b> (Left) Boxplot identifying specific production lots that violated cleanroom particle limits. (Right) Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.</sub></div>
+<div align="center"><sub><b>Figure 4.</b> Boxplot identifying specific production lots that violated cleanroom particle limits.</sub></div>
 
+<br>
 
-![Cleanroom Boxplot](figures/05_killer_defects_correlation.png)
-*Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.*
+<div align="center">
+  <img src="figures/05_killer_defects_correlation.png" width="75%" alt="Killer Defects Correlation">
+</div>
+<div align="center"><sub><b>Figure 5.</b> Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.</sub></div>
+
 
 ### Act III: Statistical Process Control (SPC) and Event-Driven Errors
 
 Continuous errors (like furnace drift) are different from event-driven anomalies. Using the classic 3-sigma rule ($3\sigma$) and the Interquartile Range (IQR), I created filters to catch isolated physical damage to the wafer, such as a broken path (drastic resistance spike) or a temporary gas dispenser defect during Chemical Vapor Deposition (CVD).
 
 
-<div align="center">
-  <img src="figures/06_spc_resistance_control_chart.png" width="45%" alt="SPC Resistance Control Chart" hspace="15">
-  <img src="figures/07_cvd_thickness_outliers.png" width="45%" alt="CVD Thickness Outliers" hspace="15">
-</div>
-<div align="center"><sub><b>Figure 5.</b> (Left) SPC control chart applying the 3-sigma rule to detect critical line resistance outliers. (Right) Histogram of CVD thickness distribution highlighting isolated chamber deposition anomalies.</sub></div>
 
+<div align="center">
+  <img src="figures/06_spc_resistance_control_chart.png" width="75%" alt="SPC Resistance Control Chart">
+</div>
+<div align="center"><sub><b>Figure 6.</b> SPC control chart applying the 3-sigma rule to detect critical line resistance outliers.</sub></div>
+
+<br>
+
+<div align="center">
+  <img src="figures/07_cvd_thickness_outliers.png" width="75%" alt="CVD Thickness Outliers">
+</div>
+<div align="center"><sub><b>Figure 7.</b> Histogram of CVD thickness distribution highlighting isolated chamber deposition anomalies.</sub></div>
 
 ### Act IV: Chronology-Based Yield Qualification Mask
 
@@ -99,7 +108,7 @@ The finale of the project was the implementation of a script simulating the deci
 
 
 <div align="center">
-  <img src="figures/08_yield_qualification_breakdown.png" width="75%" alt="Yield Breakdown">
+  <img src="figures/08_yield_qualification_breakdown.png" width="45%" alt="Yield Breakdown">
 </div>
 <div align="center"><sub><b>Figure 6.</b> Donut chart summarizing the final manufacturing yield based on the chronological qualification script.</sub></div>
 

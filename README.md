@@ -45,34 +45,33 @@ $$
 
 Where the unit capacitance of the oxide is $C_{ox} = \frac{\epsilon_{ox}}{d_{ox}}$. When the oxide thickness ($d_{ox}$) increases due to a furnace failure, the capacitance ($C_{ox}$) decreases, which directly forces a critical shift in the threshold voltage ($V_{th}$).
 
-![loading-ag-392](../figures/01_process_drift.png) *Run-chart showing the sudden drift in oxidation temperature and its direct impact on oxide thickness.*
+![loading-ag-392](figures/01_process_drift.png)
+*Run-chart showing the sudden drift in oxidation temperature and its direct impact on oxide thickness.*
 
-![Temp vs Vth](../figures/02_temp_vs_vth.png)
-
+![Temp vs Vth](figures/02_temp_vs_vth.png)
 *Scatter plot correlating the anomalous oxidation temperature spike with the shift in threshold voltage.*
 
-![Domino Effect](../figures/03_domino_effect_etch_res.png)
-
+![Domino Effect](figures/03_domino_effect_etch_res.png)
 *Visualization of the domino effect where prolonged etch times increase line resistance.*
 
 ### Act II: Cleanroom Cleanliness Classes and "Killer Defects"
 
 During production, batches (e.g., LOT_032) were identified with a drastic increase in particulate matte
 
-![Cleanroom Boxplot](../figures/04_cleanroom_lots_boxplot.png)
+![Cleanroom Boxplot](figures/04_cleanroom_lots_boxplot.png)
 *Boxplot identifying specific production lots that violated cleanroom particle limits.*
 
-![Cleanroom Boxplot](../figures/04_cleanroom_lots_boxplot.png)
+![Cleanroom Boxplot](figures/04_cleanroom_lots_boxplot.png)
 *Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.*
 
 ### Act III: Statistical Process Control (SPC) and Event-Driven Errors
 
 Continuous errors (like furnace drift) are different from event-driven anomalies. Using the classic 3-sigma rule ($3\sigma$) and the Interquartile Range (IQR), I created filters to catch isolated physical damage to the wafer, such as a broken path (drastic resistance spike) or a temporary gas dispenser defect during Chemical Vapor Deposition (CVD).
 
-![Cleanroom Boxplot](../figures/04_cleanroom_lots_boxplot.png)
+![Cleanroom Boxplot](figures/04_cleanroom_lots_boxplot.png)
 *SPC control chart applying the 3-sigma rule to detect critical line resistance outliers.*
 
-![CVD Outliers](../figures/07_cvd_thickness_outliers.png)
+![CVD Outliers](figures/07_cvd_thickness_outliers.png)
 *Histogram of CVD thickness distribution highlighting isolated chamber deposition anomalies.*
 
 ### Act IV: Chronology-Based Yield Qualification Mask
@@ -83,7 +82,7 @@ The finale of the project was the implementation of a script simulating the deci
 
 - **REJECT:** Oxidation errors, etching flaws, or resistance spikes are defects in the silicon structure (irreversible). These wafers were unconditionally scrapped.
 
-![Yield Breakdown](../figures/08_yield_qualification_breakdown.png)
+![Yield Breakdown](figures/08_yield_qualification_breakdown.png)
 *Donut chart summarizing the final manufacturing yield based on the chronological qualification script.*
 
 ## 5. Summary

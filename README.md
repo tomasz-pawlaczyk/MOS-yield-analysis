@@ -49,7 +49,7 @@ $$
 Where the unit capacitance of the oxide is $C_{ox} = \frac{\epsilon_{ox}}{d_{ox}}$. When the oxide thickness ($d_{ox}$) increases due to a furnace failure, the capacitance ($C_{ox}$) decreases, which directly forces a critical shift in the threshold voltage ($V_{th}$).
 
 ![loading-ag-392](figures/01_process_drift.png)	
-*Run-chart showing the sudden drift in oxidation temperature and its direct impact on oxide thickness.*
+<div align="center"><sub><b>Figure 1.</b> Run-chart showing the sudden drift in oxidation temperature and its direct impact on oxide thickness.</sub></div>
 
 
 <div align="center">
@@ -69,14 +69,14 @@ During production, batches (e.g., LOT_032) were identified with a drastic increa
 <div align="center">
   <img src="figures/04_cleanroom_lots_boxplot.png" width="75%" alt="Cleanroom Lots Boxplot">
 </div>
-<div align="center"><sub><b>Figure 4.</b> Boxplot identifying specific production lots that violated cleanroom particle limits.</sub></div>
+<div align="center"><sub><b>Figure 3.</b> Boxplot identifying specific production lots that violated cleanroom particle limits.</sub></div>
 
 <br>
 
 <div align="center">
   <img src="figures/05_killer_defects_correlation.png" width="75%" alt="Killer Defects Correlation">
 </div>
-<div align="center"><sub><b>Figure 5.</b> Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.</sub></div>
+<div align="center"><sub><b>Figure 4.</b> Log-scale scatter plot demonstrating how excessive particle contamination causes critical dielectric leakage.</sub></div>
 
 
 ### Act III: Statistical Process Control (SPC) and Event-Driven Errors
@@ -88,14 +88,14 @@ Continuous errors (like furnace drift) are different from event-driven anomalies
 <div align="center">
   <img src="figures/06_spc_resistance_control_chart.png" width="75%" alt="SPC Resistance Control Chart">
 </div>
-<div align="center"><sub><b>Figure 6.</b> SPC control chart applying the 3-sigma rule to detect critical line resistance outliers.</sub></div>
+<div align="center"><sub><b>Figure 5.</b> SPC control chart applying the 3-sigma rule to detect critical line resistance outliers.</sub></div>
 
 <br>
 
 <div align="center">
   <img src="figures/07_cvd_thickness_outliers.png" width="75%" alt="CVD Thickness Outliers">
 </div>
-<div align="center"><sub><b>Figure 7.</b> Histogram of CVD thickness distribution highlighting isolated chamber deposition anomalies.</sub></div>
+<div align="center"><sub><b>Figure 6.</b> Histogram of CVD thickness distribution highlighting isolated chamber deposition anomalies.</sub></div>
 
 ### Act IV: Chronology-Based Yield Qualification Mask
 
@@ -109,7 +109,7 @@ The finale of the project was the implementation of a script simulating the deci
 <div align="center">
   <img src="figures/08_yield_qualification_breakdown.png" width="45%" alt="Yield Breakdown">
 </div>
-<div align="center"><sub><b>Figure 6.</b> Donut chart summarizing the final manufacturing yield based on the chronological qualification script.</sub></div>
+<div align="center"><sub><b>Figure 7.</b> Donut chart summarizing the final manufacturing yield based on the chronological qualification script.</sub></div>
 
 ## 5. Summary
 

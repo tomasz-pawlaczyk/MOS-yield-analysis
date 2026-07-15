@@ -51,6 +51,7 @@ Where the unit capacitance of the oxide is $C_{ox} = \frac{\epsilon_{ox}}{d_{ox}
 ![loading-ag-392](figures/01_process_drift.png)	
 <div align="center"><sub><b>Figure 1.</b> Run-chart showing the sudden drift in oxidation temperature and its direct impact on oxide thickness.</sub></div>
 
+<br>
 
 <div align="center">
   <img src="figures/02_temp_vs_vth.png" width="75%" alt="Temperature vs Threshold Voltage">
